@@ -1,0 +1,18 @@
+html{
+  background-color: rgb(193, 193, 193);
+}
+.intro{
+  color: rgb(0,15,47);
+}
+body{
+  font-family:'Roboto',sans-serif;
+}
+h1,h2,h3,h4{
+color: rgb(0,29,83);
+}
+p{
+  color: rgb(0, 15, 47);
+}
+li{
+  color: rgb(0, 15, 47);
+}
