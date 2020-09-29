@@ -5,10 +5,12 @@ body{
   background-color: lightblue;
   margin: 50;
   text-align: center;
-  font-family: 'roboto': sans-serif;
+  font-family: 'roboto',sans-serif;
+  color: teal;
 }
 h1 {
   font-size: 4rem;
+  color: teal;
 }
 a:link, a:visited {
   color: navy;
