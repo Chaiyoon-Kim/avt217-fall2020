@@ -1,0 +1,10 @@
+ui{
+  float: left;
+
+}
+*{
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+}
