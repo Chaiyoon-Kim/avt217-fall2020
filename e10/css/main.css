@@ -1,0 +1,26 @@
+body{
+  background-color: dodgerblue;
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.board{
+  width: 900px;
+  background-color: whitesmoke;
+  padding: 50px;
+  display: flow-root;
+  margin: 0 auto;
+}
+.red .black{
+  width: 100px;
+  height: 100px;
+  float: left;
+
+}
+.red{
+  background-color: tomato;
+}
+.black{
+  background-color: #333333;
+}
