@@ -1,5 +1,5 @@
 body{
-  background-color: dodgerblue;
+  background-color: #333333;
   margin: 0;
 }
 *{
@@ -10,9 +10,9 @@ body{
   background-color: whitesmoke;
   padding: 50px;
   display: flow-root;
-  margin: 0 auto;
+  margin: 25px auto;
 }
-.red .black{
+.red, .black {
   width: 100px;
   height: 100px;
   float: left;
