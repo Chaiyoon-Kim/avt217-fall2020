@@ -1,16 +1,13 @@
 ui{
-  float: left;
+  float: center;
 }
 *{
   box-sizing: border-box;
   align-content: center;
 }
 img{
-  max-width: 100%;
   width: 100%;
-  height: 961px;
   background-size: cover;
-  margin: 0px 0px 100px 0px
 }
 
 
@@ -33,10 +30,11 @@ h1{
 
 }
 
-.images {
+.image1{
    position: relative;
-   width: 1440px; /* for IE 6 */
-   margin-bottom: 100px;
+   width: 1440px;
+   margin: 0px 0px 100px 0px;
+
 }
 
 h2 {
@@ -47,37 +45,37 @@ h2 {
    width: 1209.5px;
    weight: 274.5px;
    font-size: 70px;
-   font-family: "park-lane", serif;
+   font-family: "park-lane", serif !important;
    font-style: normal;
    font-weight: 700;
    color: #DFE0E2;
+
 }
 
-ol {
-  width: 372px;
-  height:: 94.5px;
-  position: relative;
-  font-size: 40px;
-  font-weight: bold;
-  font-family: cursive;
-  font-style: normal;
-  text-align: center;
-}
-.button1{
-    top: 142px;
-    left: 1257px;
+
+.text1{
     position: relative;
-    width: 372px;
-    height: 94.5px;
     font-size: 40px;
     font-style: normal;
+    font-weight: bold;
+    font-family: cursive;
     font-family: "park-lane", serif;
     text-align: center;
     color: ##285C83;
     display: flow-root;
     float: left;
+    margin: 0px 20px 0px 142px;
+
 }
-.button2{
+.image2{
+  width: 372px;
+  height: 328px;
+  display: flow-root;
+  float: left;
+  margin: 15px 0px 198px 142px;
+
+}
+.text2{
     top: 534px;
     left: 1257px;
     position: relative;
@@ -92,12 +90,20 @@ ol {
     float: left;
 
 }
-.images-button1{
-  max-width: 372px;
-  max-height: 328.45px;
-  width: auto;
-  height: auto;
-  display: block;
-  position: relative;
 
+
+.image3{
+  width: 372px;
+  height: 328px;
+  display: flow-root;
+  float: left;
+  margin: 15px 20px 198px 20px;
+}
+
+.image4{
+  width: 372px;
+  height: 328px;
+  display: flow-root;
+  float: left;
+  margin: 15px 142px 198px 0px;
 }
