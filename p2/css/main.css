@@ -13,7 +13,7 @@ img{
 
 
 h1{
-  width: 1440px;
+  width: 100%;
   height: 184.5px;
   font-size: 90px;
   font-style: normal;
@@ -40,10 +40,9 @@ h1{
 h2 {
    text-align: center;
    position: absolute;
-   top: 200px;
-   left: 100px;
-   width: 1209.5px;
-   weight: 274.5px;
+   top: 800px;
+   left: 350px;
+   width: 60%;
    font-size: 70px;
    font-family: "park-lane", serif !important;
    font-style: normal;
@@ -53,57 +52,43 @@ h2 {
 }
 
 
-.text1{
+.texts{
+    width: 100%;
+    height: 50px;
+    box-sizing: content-box;
     position: relative;
     font-size: 40px;
     font-style: normal;
     font-weight: bold;
-    font-family: cursive;
     font-family: "park-lane", serif;
     text-align: center;
     color: ##285C83;
     display: flow-root;
     float: left;
-    margin: 0px 20px 0px 142px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+
 
 }
-.image2{
-  width: 372px;
+
+.images{
+  width: 100%;
   height: 328px;
   display: flow-root;
   float: left;
-  margin: 15px 0px 198px 142px;
+  position: relative;
+  margin-bottom: 10px;
+
+
 
 }
-.text2{
-    top: 534px;
-    left: 1257px;
-    position: relative;
-    width: 372px;
-    height: 94.5px;
-    font-size: 40px;
-    font-style: normal;
-    font-family: "park-lane", serif;
-    text-align: center;
-    color: ##285C83;
-    display: flow-root;
-    float: left;
-
-}
-
-
-.image3{
-  width: 372px;
-  height: 328px;
+div{
+  column-count: 3;
   display: flow-root;
   float: left;
-  margin: 15px 20px 198px 20px;
-}
-
-.image4{
+  width: 100%;
+  position: relative;
+  grid-gap: 70px;
   width: 372px;
   height: 328px;
-  display: flow-root;
-  float: left;
-  margin: 15px 142px 198px 0px;
 }
