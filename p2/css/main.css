@@ -4,6 +4,7 @@ ui{
 *{
   box-sizing: border-box;
   align-content: center;
+  background-size: 100%;
 }
 img{
   width: 100%;
@@ -62,15 +63,22 @@ h2 {
     font-weight: bold;
     font-family: "park-lane", serif;
     text-align: center;
-    color: ##285C83;
+    color: #285C83;
     display: flow-root;
     float: left;
     margin-top: 100px;
     margin-bottom: 10px;
+    column-gap: 300px;
+
 
 
 }
-
+a:link, a:visited {
+  color: #285C83;
+}
+a:hover, a:active {
+  color: #832828;
+}
 .images{
   width: 100%;
   height: 370px;
@@ -84,11 +92,30 @@ h2 {
 }
 div{
   column-count: 3;
+  column-gap: normal;
+  column-width: auto;
   display: flow-root;
   float: left;
   width: 100%;
   position: relative;
   grid-gap: 70px;
-  width: 372px;
-  height: 328px;
+  align-items: center;
+
+}
+
+button {
+  font-family: "helvetica-neue", sans-serif;
+  font-size: 20px;
+  float: left;
+  display: flow-root;
+  position: relative;
+  column-gap: 800px;
+  border-radius: 50%;
+  background-color: #832828;
+  color: #DFE0E2;
+  display: inline-block;
+  border: none;
+  padding: 0px 50px;
+  align-content: center;
+  height: 100%;
 }

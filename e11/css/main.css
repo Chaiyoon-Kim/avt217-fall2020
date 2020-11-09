@@ -1,0 +1,245 @@
+
+.pizza{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 500px;
+  height: 500PX;
+  top: 30%;
+  left: 30%;
+  background-color: #f2b445;
+  border-radius: 50%;
+  background-position: center;
+  border-color: #d58328;
+  border: 1000px;
+  border-width: thick;
+  border-radius: 100%;
+  border-style:  double;
+
+
+}
+
+.olive-1{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.olive-2{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 30px;
+  height:30px;
+  top: 50%;
+  left: 40%;
+  background-color: black;
+  border-radius: 50%;
+}
+.olive-3{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  top: 60%;
+  left: 41%;
+  background-color: black;
+  border-radius: 50%;
+}
+.olive-4{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  top: 40%;
+  left: 45%;
+  background-color: black;
+  border-radius: 50%;
+}
+.olive-5{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  top: 65%;
+  left: 35%;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.topping-1{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left:45%;
+  background-color: #ee8944;
+  border-radius: 50%;
+}
+.topping-2{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  top: 60%;
+  left:50%;
+  background-color: #ee8944;
+  border-radius: 50%;
+}
+.topping-3{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  top: 33%;
+  left: 40%;
+  background-color: #ee8944;
+  border-radius: 50%;
+}
+.topping-4{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  top: 65%;
+  left: 37%;
+  background-color: #ee8944;
+  border-radius: 50%;
+}
+.topping-5{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  top: 45%;
+  left:33%;
+  background-color: #ee8944;
+  border-radius: 50%;
+}
+
+.cheese-1{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  top: 48%;
+  left: 33%;
+  background-color: #ead38b;
+  border-radius: 50%;
+}
+.cheese-2{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  top: 60%;
+  left: 47%;
+  background-color: #ead38b;
+  border-radius: 50%;
+}
+.cheese-3{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  top: 51%;
+  left: 40%;
+  background-color: #ead38b;
+  border-radius: 50%;
+}
+.cheese-4{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  top: 35%;
+  left: 47%;
+  background-color: #ead38b;
+  border-radius: 50%;
+}
+.cheese-5{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  top: 65%;
+  left: 39%;
+  background-color: #ead38b;
+  border-radius: 50%;
+}
+
+.pe-1{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  top: 65%;
+  left: 43%;
+  background-color: #ce4327;
+  border-radius: 50%;
+}
+.pe-2{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  top: 37%;
+  left: 37%;
+  background-color: #ce4327;
+  border-radius: 50%;
+}
+.pe-3{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  top: 53%;
+  left: 35%;
+  background-color: #ce4327;
+  border-radius: 50%;
+}
+.pe-4{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  top: 51%;
+  left: 45%;
+  background-color: #ce4327;
+  border-radius: 50%;
+}
+.pe-5{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  top: 43%;
+  left: 50%;
+  background-color: #ce4327;
+  border-radius: 50%;
+}
