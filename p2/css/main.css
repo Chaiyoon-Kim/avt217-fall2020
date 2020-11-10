@@ -1,5 +1,5 @@
 ui{
-  float: center;
+  float: left;
 }
 *{
   box-sizing: border-box;
@@ -8,7 +8,6 @@ ui{
 }
 img{
   width: 100%;
-  background-size: cover;
 }
 
 
@@ -54,68 +53,93 @@ h2 {
 
 
 .texts{
-    width: 100%;
-    height: 50px;
-    box-sizing: content-box;
+    box-sizing: border-box;
     position: relative;
     font-size: 40px;
     font-style: normal;
     font-weight: bold;
     font-family: "park-lane", serif;
-    text-align: center;
+    text-align: left;
     color: #285C83;
     display: flow-root;
     float: left;
     margin-top: 100px;
     margin-bottom: 10px;
     column-gap: 300px;
-
+    column-count: 3;
+    column-fill: balance;
+    column-width: 100%;
 
 
 }
+.about{
+  top: 50%;
+  left: 60%;
+}
+.sights{
+  top: 50%;
+  left: 35%;
+}
+.plans{
+  top: 50%;
+  left: 0%;
+}
+
 a:link, a:visited {
   color: #285C83;
 }
 a:hover, a:active {
   color: #832828;
 }
-.images{
-  width: 100%;
-  height: 370px;
+.home-image{
+  box-sizing: border-box;
+  align-items:center;
+  width: 1600px;
+  height: 2300px;
   display: flow-root;
   float: left;
   position: relative;
-  margin-bottom: 10px;
-
-
-
-}
-div{
+  top: 50%;
+  left: 5%;
   column-count: 3;
   column-gap: normal;
-  column-width: auto;
-  display: flow-root;
+  column-width: 100%;
+  column-gap: 150px;
+  column-fill: balance;
+}
+
+div {
+  column-count: 3;
+  column-gap: normal;
+  column-width: 100%;
+  display: block;
   float: left;
   width: 100%;
-  position: relative;
-  grid-gap: 70px;
+  position:relative;
+  column-gap: 150px;
   align-items: center;
-
 }
 
 button {
   font-family: "helvetica-neue", sans-serif;
   font-size: 20px;
   float: left;
-  display: flow-root;
+  margin-top: 10px;
   position: relative;
-  column-gap: 800px;
-  border-radius: 50%;
+  column-gap: 150px;
+  border-radius: 60%;
   background-color: #832828;
   color: #DFE0E2;
-  display: inline-block;
+  display:block;
   border: none;
-  padding: 0px 50px;
   align-content: center;
-  height: 100%;
+  align-items: center;
+  height: 200%;
+  width: 70%;
+  top: 50%;
+  column-count: 3;
+  column-width: 100%;
+  font-style: normal;
+  font-weight: bold;
+
 }
