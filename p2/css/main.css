@@ -5,31 +5,51 @@ ui{
   box-sizing: border-box;
   align-content: center;
   background-size: 100%;
+  max-width: 1800px;
+  min-width: 800px;
 }
 img{
   width: 100%;
+
 }
 
 
 
 h1{
   width: 100%;
-  height: 184.5px;
-  font-size: 90px;
+  height: 150.5px;
+  font-size: 50px;
   font-style: normal;
-  font-family: "helvetica-neue", sans-serif;
+  font-family: "park-lane", serif !important;
   font-weight: bold;
-  color: #DFE0E2;
-  text-align: "center";
-  background-color: #285C83;
+  color: #832828;
+  text-align: center;
+  background-color: #DFE0E2;
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0px;
-
+  align-items: left;
+  justify-content: left;
+  margin: 0px 0px -50px 0px;
 }
-
+.top{
+  width: 100%;
+  height: 127px;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "park-lane", serif !important;
+  font-weight: bold;
+  color: #832828;
+  text-align: left;
+  background-color: #DFE0E2;
+  position: relative;
+  display: flex;
+  align-items: left;
+  justify-content:left;
+  margin: -50px 0px 0px 0px;
+  word-spacing: normal;
+}
+a{
+}
 .image1{
    position: relative;
    width: 1440px;
@@ -86,10 +106,10 @@ h2 {
 }
 
 a:link, a:visited {
-  color: #285C83;
+  color: #832828;
 }
 a:hover, a:active {
-  color: #832828;
+  color: #285C83;
 }
 .home-image{
   box-sizing: border-box;
