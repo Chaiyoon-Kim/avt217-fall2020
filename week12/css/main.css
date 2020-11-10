@@ -9,7 +9,8 @@ img{
 }
 header{
   background-color: red;
-  padding: 50px;
+  padding: 25px 50px;
+  display: flow-root;
 }
 main{
   background-color: yellow;
@@ -19,6 +20,10 @@ footer{
 }
 h1{
   margin: 0;
+  text-align: center;
+}
+p.subhead{
+  text-align: center;
 }
 p{
   margin: 0;
@@ -29,6 +34,25 @@ ul{
   list-style-type: none;
 
 }
+nav{
+float: right;
+}
+
 li{
   float: left;
+  margin-left: 25px;
+
+}
+.title{
+  float: left;
+}
+
+.title p{
+  margin: 0;
+}
+.hero{
+  background: url(../img/1.png) no-repeat center center;
+  background-size: cover;
+  padding: 300px 0;
+
 }
