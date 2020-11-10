@@ -3,7 +3,7 @@ ui{
 }
 *{
   box-sizing: border-box;
-  align-content:flex-start;
+  align-content:flex-end;
   background-size: 100%;
   min-width: 800px;
 }

@@ -3,9 +3,8 @@ ui{
 }
 *{
   box-sizing: border-box;
-  align-content: center;
+  align-content:flex-end;
   background-size: 100%;
-  max-width: 1800px;
   min-width: 800px;
 }
 img{
@@ -47,6 +46,12 @@ h1{
   justify-content:left;
   margin: -50px 0px 0px 0px;
   word-spacing: normal;
+  column-count: 4;
+  column-gap: normal;
+  column-width: 100%;
+  column-gap: 150px;
+  column-fill: balance;
+  
 }
 a{
 }
