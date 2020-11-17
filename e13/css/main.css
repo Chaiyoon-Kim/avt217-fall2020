@@ -1,0 +1,433 @@
+body{
+  margin: 0;
+}
+.pizza{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 500px;
+  height: 500PX;
+  top: 30%;
+  left: 30%;
+  background-color: #f2b445;
+  border-radius: 50%;
+  background-position: center;
+  border-color: #d58328;
+  border: 1000px;
+  border-width: thick;
+  border-radius: 100%;
+  border-style:  double;
+}
+
+.olive-1{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  background-color: black;
+  border-radius: 50%;
+  animation-name: olive-1move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes olive-1move {
+  from {
+    margin-left: 100%;
+    width: 30px;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 30px;
+  }
+}
+
+.olive-2{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 30px;
+  height:30px;
+  top: 50%;
+  left: 40%;
+  background-color: black;
+  border-radius: 50%;
+  animation-name: olive-2move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes olive-2move {
+  from {
+    margin-top: 100%;
+    width: 30px;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 30px;
+  }
+}
+
+.olive-3{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  top: 60%;
+  left: 41%;
+  background-color: black;
+  border-radius: 50%;
+  animation-name: olive-3move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes olive-3move {
+  from {
+    margin-top: 100%;
+    width: 30px;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 30px;
+  }
+}
+
+.olive-4{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  top: 40%;
+  left: 45%;
+  background-color: black;
+  border-radius: 50%;
+  animation-name: olive-4move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes olive-4move {
+  from {
+    margin-left: 100%;
+    width: 30px;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 30px;
+  }
+}
+.olive-5{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  top: 65%;
+  left: 35%;
+  background-color: black;
+  border-radius: 50%;
+  animation-name: olive-5slide;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes olive-5slide {
+  from {
+    margin-left: 100%;
+    width: 30px;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 30px;
+  }
+}
+.topping-1{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left:45%;
+  background-color: #ee8944;
+  border-radius: 50%;
+  animation-name: topping-1fadeInOut;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes topping-1fadeInOut {
+  from {
+    margin-left: 100%;
+    width: 50px;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 50px;
+  }
+}
+
+.topping-2{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  top: 60%;
+  left:50%;
+  background-color: #ee8944;
+  border-radius: 50%;
+  animation-name: topping-1fadeInOut;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
+.topping-3{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  top: 33%;
+  left: 40%;
+  background-color: #ee8944;
+  border-radius: 50%;
+  animation-name: topping-1fadeInOut;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
+.topping-4{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  top: 65%;
+  left: 37%;
+  background-color: #ee8944;
+  border-radius: 50%;
+  animation-name: topping-2fadeInOut;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
+.topping-5{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  top: 45%;
+  left:33%;
+  background-color: #ee8944;
+  border-radius: 50%;
+  animation-name: topping-2fadeInOut;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes topping-2fadeInOut {
+  from {
+    margin-top: 100%;
+    width: 50px;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 50px;
+  }
+}
+
+.cheese-1{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  top: 48%;
+  left: 33%;
+  background-color: #ead38b;
+  border-radius: 50%;
+  animation-name: cheese-1slidein;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes cheese-1slidein {
+  from {
+    margin-top: 100%;
+    width: 70px;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 70px;
+  }
+}
+
+.cheese-2{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  top: 60%;
+  left: 47%;
+  background-color: #ead38b;
+  border-radius: 50%;
+  animation-name: cheese-1slidein;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+
+}
+.cheese-3{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  top: 51%;
+  left: 40%;
+  background-color: #ead38b;
+  border-radius: 50%;
+  animation-name: cheese-1slidein;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+
+}
+.cheese-4{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  top: 35%;
+  left: 47%;
+  background-color: #ead38b;
+  border-radius: 50%;
+  animation-name: cheese-2slidein;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes cheese-2slidein {
+  from {
+    margin-left: 200%;
+    width: 70px;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 70px;
+  }
+}
+
+.cheese-5{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  top: 65%;
+  left: 39%;
+  background-color: #ead38b;
+  border-radius: 50%;
+  animation-name: cheese-2slidein;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+
+}
+
+.pe-1{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  top: 65%;
+  left: 43%;
+  background-color: #ce4327;
+  border-radius: 50%;
+  animation-name: bounce;
+  animation-duration: 1.9s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  from {
+    margin-left: 100%;
+    width: 90px;
+
+  }
+
+  to {
+    margin-right: 50%;
+    width: 90px;
+  }
+}
+
+.pe-2{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  top: 37%;
+  left: 37%;
+  background-color: #ce4327;
+  border-radius: 50%;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+.pe-3{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  top: 53%;
+  left: 35%;
+  background-color: #ce4327;
+  border-radius: 50%;
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
+.pe-4{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  top: 51%;
+  left: 45%;
+  background-color: #ce4327;
+  border-radius: 50%;
+  animation-name: bounce;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+.pe-5{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  top: 43%;
+  left: 50%;
+  background-color: #ce4327;
+  border-radius: 50%;
+  animation-name: bounce;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}

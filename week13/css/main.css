@@ -1,0 +1,43 @@
+p{
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+@keyframes slidein {
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }
+  75%{
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: dodgerblue;
+  animation-duration: 1s;
+  animation-name: move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+@keyframes move {
+  from{
+    top:0;
+    left: 0;
+  }
+  25%{
+    top:0;
+    left: calc(100vw -200px);
+    
+  }
+}
