@@ -1,0 +1,48 @@
+*{
+  text-align: center;
+  width: 100%;
+}
+h1{
+  font-size: 6rem;
+  font-family: "fredericka-the-greatest", serif;
+  font-weight: 400px;
+  font-style: normal;
+
+}
+h2{
+  font-family: "goldenbook",serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 4rem;
+}
+h3{
+  font-family: "goldenbook", serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: bold;
+}
+.content{
+  font-size: 1rem;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@@media screen and (max-width: 600px) {
+  h1{
+    background-color: blue;
+  }
+
+  h2{
+    background-color: pink;
+  }
+  h3{
+    background-color: green;
+  }
+  .content{
+    background-color: yellow;
+  }
+  *{
+    width: device-width;
+  }
+}

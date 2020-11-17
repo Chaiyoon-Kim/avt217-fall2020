@@ -5,11 +5,10 @@ ui{
   box-sizing: border-box;
   align-content:flex-end;
   background-size: 100%;
-  min-width: 800px;
+  min-width: 570px;
 }
 img{
   width: 100%;
-
 }
 
 
@@ -17,7 +16,7 @@ img{
 h1{
   width: 100%;
   height: 150.5px;
-  font-size: 50px;
+  font-size: 2rem;
   font-style: normal;
   font-family: "park-lane", serif !important;
   font-weight: bold;
@@ -30,10 +29,10 @@ h1{
   justify-content: left;
   margin: 0px 0px -50px 0px;
 }
-.top{
+nav{
   width: 100%;
-  height: 127px;
-  font-size: 20px;
+  height: 50px;
+  font-size: 1rem;
   font-style: normal;
   font-family: "park-lane", serif !important;
   font-weight: bold;
@@ -46,21 +45,10 @@ h1{
   justify-content:left;
   margin: -50px 0px 0px 0px;
   word-spacing: normal;
-  column-count: 4;
-  column-gap: normal;
-  column-width: 100%;
-  column-gap: 150px;
-  column-fill: balance;
-  
+  list-style-type: none;
 }
-a{
-}
-.image1{
-   position: relative;
-   width: 1440px;
-   margin: 0px 0px 100px 0px;
 
-}
+
 
 h2 {
    text-align: center;
@@ -68,7 +56,7 @@ h2 {
    top: 800px;
    left: 350px;
    width: 60%;
-   font-size: 70px;
+   font-size: 4rem;
    font-family: "park-lane", serif !important;
    font-style: normal;
    font-weight: 700;
@@ -78,13 +66,12 @@ h2 {
 
 
 .texts{
-    box-sizing: border-box;
     position: relative;
-    font-size: 40px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: bold;
     font-family: "park-lane", serif;
-    text-align: left;
+    text-align: center;
     color: #285C83;
     display: flow-root;
     float: left;
@@ -97,18 +84,7 @@ h2 {
 
 
 }
-.about{
-  top: 50%;
-  left: 60%;
-}
-.sights{
-  top: 50%;
-  left: 35%;
-}
-.plans{
-  top: 50%;
-  left: 0%;
-}
+
 
 a:link, a:visited {
   color: #832828;
@@ -116,55 +92,30 @@ a:link, a:visited {
 a:hover, a:active {
   color: #285C83;
 }
+
 .home-image{
-  box-sizing: border-box;
   align-items:center;
-  width: 1600px;
-  height: 2300px;
+  width: 100%;
+  height: 100%;
   display: flow-root;
   float: left;
-  position: relative;
-  top: 50%;
-  left: 5%;
+  position:relative;
+  top: 20%;
   column-count: 3;
-  column-gap: normal;
-  column-width: 100%;
-  column-gap: 150px;
-  column-fill: balance;
+  column-width: 5px;
+  column-gap: 20px;
+  margin: 100px 5px 0px 5px;
 }
 
 div {
   column-count: 3;
-  column-gap: normal;
-  column-width: 100%;
-  display: block;
+  column-gap: 5px;
+  column-width: 5px;
+  display:flow-root;
   float: left;
   width: 100%;
   position:relative;
-  column-gap: 150px;
+  column-gap: 20px;
   align-items: center;
-}
-
-button {
-  font-family: "helvetica-neue", sans-serif;
-  font-size: 20px;
-  float: left;
-  margin-top: 10px;
-  position: relative;
-  column-gap: 150px;
-  border-radius: 60%;
-  background-color: #832828;
-  color: #DFE0E2;
-  display:block;
-  border: none;
-  align-content: center;
-  align-items: center;
-  height: 200%;
-  width: 70%;
-  top: 50%;
-  column-count: 3;
-  column-width: 100%;
-  font-style: normal;
-  font-weight: bold;
 
 }
