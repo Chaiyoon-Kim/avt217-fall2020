@@ -10,6 +10,9 @@ ui{
 img{
   width: 100%;
 }
+body{
+  margin: 0;
+}
 
 
 
@@ -25,9 +28,10 @@ h1{
   background-color: #DFE0E2;
   position: relative;
   display: flex;
-  align-items: left;
-  justify-content: left;
-  margin: 0px 0px -50px 0px;
+  align-items: center;
+  justify-content: space-between;
+  margin: -50px 0px -50px 0px;
+
 }
 nav{
   width: 100%;
@@ -41,11 +45,14 @@ nav{
   background-color: #DFE0E2;
   position: relative;
   display: flex;
-  align-items: left;
-  justify-content:left;
-  margin: -50px 0px 0px 0px;
+  align-items: center;
+  justify-content:space-between;
+  padding: -50px 0px 0px 0px;
   word-spacing: normal;
   list-style-type: none;
+  padding-left: 0;
+  padding: 8px 12px;
+
 }
 
 
@@ -100,7 +107,7 @@ a:hover, a:active {
   display: flow-root;
   float: left;
   position:relative;
-  top: 20%;
+
   column-count: 3;
   column-width: 5px;
   column-gap: 20px;
@@ -117,5 +124,51 @@ div {
   position:relative;
   column-gap: 20px;
   align-items: center;
+
+}
+
+@media screen and (max-width: 320px){
+h1{
+  width: 320px;
+  height: 10px;
+  font-size: 2rem;
+  font-style: normal;
+  font-family: "park-lane", serif !important;
+  font-weight: bold;
+  color: #832828;
+  text-align: center;
+  background-color: #DFE0E2;
+  position: relative;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin: 0px 0px -50px 0px;
+}
+nav{
+  width: 320px;
+  height: 25px;
+  font-size: 1rem;
+  font-style: normal;
+  font-family: "park-lane", serif !important;
+  font-weight: bold;
+  color: #832828;
+  text-align: left;
+  background-color: #DFE0E2;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 0px 0px 5px 0px;
+  word-spacing: normal;
+  list-style-type: none;
+  padding-left: 0;
+}
+div{
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+
+
 
 }
