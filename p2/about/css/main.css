@@ -1,35 +1,44 @@
-ui{
-  float: left;
-}
 *{
   box-sizing: border-box;
-  align-content:flex-end;
+  align-content:flex-flex-start;
   background-size: 100%;
-  min-width: 570px;
+  min-width:320px;
 }
 img{
   width: 100%;
-
 }
+body, html{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 h1{
   width: 100%;
-  height: 150.5px;
+  height: 20%;
   font-size: 2rem;
   font-style: normal;
   font-family: "park-lane", serif !important;
   font-weight: bold;
   color: #832828;
   text-align: center;
+
   background-color: #DFE0E2;
   position: relative;
   display: flex;
-  align-items: left;
-  justify-content: left;
-  margin: 0px 0px -50px 0px;
+  align-items: center;
+  justify-content: space-between;
+  margin: -50px 0px -50px 0px;
+
+  padding: 1%;
+
+
 }
 nav{
   width: 100%;
-  height: 50px;
+  height: 10%;
   font-size: 1rem;
   font-style: normal;
   font-family: "park-lane", serif !important;
@@ -39,27 +48,48 @@ nav{
   background-color: #DFE0E2;
   position: relative;
   display: flex;
-  align-items: left;
-  justify-content:left;
-  margin: -50px 0px 0px 0px;
-  word-spacing: normal;
+  align-items: center;
+  justify-content:space-between;
+  padding: 0px 0px 0px 0px;
   list-style-type: none;
 
-}
-a{
+  flex-grow: 1;
+  flex-shrink: 1;
 
+  padding: 1%;
 }
+
+
+
+.nav1, .nav2, .nav3 {
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:nowrap;
+
+  justify-content:space-between;
+  align-items:baseline;
+  align-content: space-between;
+}
+
+
 a:link, a:visited {
   color: #832828;
 }
 a:hover, a:active {
   color: #285C83;
 }
+
 .image1{
   width: 100%;
-  height: 771.45px;
-  margin: 0px 0px 300px 0px;
-
+  height: 100%;
+  margin: 0;
 }
 
 h2{
@@ -73,12 +103,10 @@ h2{
  position: absolute;
  top: 34%;
  left: 40%;
+ align-items: center;
+
 }
 
-.h2{
-  text-align: center;
-  text-overflow:inherit;
-}
 
 h3{
   font-size: 3rem;
@@ -86,30 +114,28 @@ h3{
   font-family: "park-lane", serif !important;
   font-weight: bold;
   display: flex;
-  float: left;
   color: #DFE0E2;
   background-color: #832828;
   width: 100%;
-  height: 200%;
+  height: 10%;
   text-align:left;
-  position: relative;
-  left: 0%;
-  margin-bottom: 0px;
-
-
-
+  position:relative;
+  margin: 0;
+  padding: 1%;
 }
+
 .history{
   background-color: #832828;
   background-size: 100%;
   width: 100%;
-  height: 1000px;
+  height: 100%;
   color: #DFE0E2;
   font-size: 2rem;
   font-style: normal;
   font-weight: normal;
   font-family: "roboto-condensed", sans-serif;
-  margin-top: 0px;
+  margin-top: 0;
+
 
 }
 
@@ -119,6 +145,8 @@ p{
   float: left;
   content-align: center;
   font-size: 2rem;
+  padding: 1%;
+
 }
 
 h4{
@@ -127,32 +155,34 @@ h4{
   font-family: "park-lane", serif !important;
   font-weight: bold;
   display: flex;
-  float: left;
   color: #DFE0E2;
   background-color: #000002;
   width: 100%;
-  height: 200px;
+  height: 10%;
   text-align:left;
   position: relative;
-  left: 0%;
-}
-.image2{
-  width: 100%;
-  height: 100%;
-  margin: 0px 0px 0px 0px;
+  margin: 0%;
+  padding: 1%;
 
 }
+
+.image2{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .when{
   background-color: #000002;
   background-size: 100%;
   width: 100%;
-  height: 1000px;
+  height: 50%;
   color: #DFE0E2;
   font-size: 2rem;
   font-style: normal;
   font-weight: normal;
   font-family: "roboto-condensed", sans-serif;
-  margin: 0px;
+  margin: 0;
 }
 .image3{
     width: 100%;
@@ -172,7 +202,7 @@ h5{
   height: 200px;
   text-align:left;
   position: relative;
-  left: 0%;
+  padding: 1%;
 }
 
 .things{
@@ -190,32 +220,78 @@ ul{
 list-style-type: none;
 }
 
-@media screen and (max-width: 320px){
-  body{
-    width: device-width;
-  }
-  p{
-    font-size: 1rem;
+
+
+
+@media screen and (max-width: 500px){
+
+  html, body{
+    width: 100%;
+    height:100vh;
+    margin: 0;
   }
   img{
-    width: device-width;
+    width: 100%;
+    margin: 0%;
 
   }
-  nav{
-    width: device-width;
-    font-size: 1rem;
-  }
-  h1{
-    font-size: 2rem;
-    margin: 0px;
-    width: device-width;
-  }
-  .image1{
-    margin: 0px 0px 0px 0px;
-  }
-  h2{
-    top: 20%;
-    font-size: 2rem;
-  }
-  h2
+
+h2{
+  font-size: 1.5rem;
+  width: 50%;
+  height: 10%;
+  top: 25%;
+  left: 29%;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+
+
+}
+
+nav{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: space-between;
+
+  column-gap: 0%;
+
+}
+.image1{
+  margin-bottom: -111%;
+}
+
+h3{
+  font-size: 2rem;
+  margin-top: -100%;
+  width: 100%;
+}
+
+.history{
+  font-size: 1rem;
+  background-color: #832828;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  display: flow-root;
+  position: relative;
+  margin-top: 0;
+  justify-content: space-between;
+  align-content: space-between;
+  background-size: auto;
+  background-repeat: repeat;
+
+}
+
+.image2{
+  margin-top: 50%;
+
+
 }
