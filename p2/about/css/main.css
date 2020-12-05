@@ -261,7 +261,7 @@ h2{
 
 }
 
-nav{
+nav, h1 {
   width: 100%;
   height: 10%;
   display: flex;
@@ -271,6 +271,7 @@ nav{
   justify-content: space-between;
   align-items: baseline;
   align-content: space-between;
+  float: left;
 
   column-gap: 0%;
 
