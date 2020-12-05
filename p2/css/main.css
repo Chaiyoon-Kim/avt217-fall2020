@@ -1,6 +1,5 @@
 *{
   box-sizing: border-box;
-  align-content:flex-flex-start;
   background-size: 100%;
   max-width: 1440px;
 
@@ -75,7 +74,7 @@ h2 {
    color: #DFE0E2;
    align-items: center;
    text-align: center;
-   left: 10%;
+   left: 25%;
 
 
 }
@@ -173,8 +172,8 @@ h2{
   font-size: 100%;
   width: 50%;
   height: 10%;
-  top: 35%;
-  left: 28%;
+  top: 50%;
+
   text-align: center;
   align-items: center;
   margin: auto;
