@@ -253,7 +253,7 @@ h2{
   font-size: 1.5rem;
   width: 50%;
   height: 10%;
-  top: 15%;
+  top: 10%;
   left: 29%;
   text-align: center;
   align-items: center;
@@ -283,7 +283,7 @@ nav, h1 {
 
 h3{
   font-size: 2rem;
-  margin-top: -100%;
+  margin-top: -150%;
   width: 100%;
   padding: 1%;
 
